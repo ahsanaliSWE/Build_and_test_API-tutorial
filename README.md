@@ -77,7 +77,9 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 ```
 
-3. **Testing with Postman**:
+---
+
+## Testing with Postman:
 You can test the API using either Postman or directly in your browser for basic operations like GET.
 * Start the server
     ```bash
@@ -96,6 +98,7 @@ You can test the API using either Postman or directly in your browser for basic 
 
 Test each route to ensure the API works correctly.
 
+---
 **Conclusion**
 --------------
 
